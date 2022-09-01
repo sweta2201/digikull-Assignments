@@ -1,0 +1,48 @@
+*{
+  margin : 0px;
+  padding : 0px;
+  box-sizing: border-box;
+}
+
+.App{
+  text-align: center;
+  width: 700px;
+  margin: auto;
+}
+
+.header{
+  width: 96%;
+  padding: 15px 0px 15px;
+  background-color: blue;
+  margin: auto;
+  margin-bottom: 20px;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  margin-bottom: 18px;
+  color: white;
+}
+
+.navigation{
+  padding: 15px;
+}
+
+.navigation button{
+  width: 140px;
+  height: 40px;
+  margin: 5px 10px;
+  cursor:pointer ;
+  font-size: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+  /* padding: 10px 0px; */
+}
+
+.navigation button:hover{
+  background-color: black;
+  color: white;
+}
